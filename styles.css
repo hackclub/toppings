@@ -70,6 +70,8 @@ p,ul{
 
 #header{
     height:100vh;
+    width: 100vw;
+    overflow: hidden;
     justify-items: flex-start;
     background-image: linear-gradient(to bottom right, var(--light-col), var(--light-col-2));
 }
@@ -79,9 +81,9 @@ p,ul{
     top:70%;
 }
 #toppingsTitle{
-    margin:20vh auto 20px auto;
+    margin:20vh 0 20px 0;
     width:65vw;
-
+    min-width: 540px;
 }
 
 footer, #header {
