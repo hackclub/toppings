@@ -113,7 +113,7 @@ a:hover{
     cursor: pointer;
 }
 
-#summary, #submit, #workshop{
+#summary, #submit, #workshop, #submit-ind{
     border-radius: 10px;
     padding:20px;
     color:#fff;
@@ -130,6 +130,10 @@ a:hover{
 #workshop{
     background-color: var(--mid-col-2);
     width: fit-content;
+}
+#submit-ind{
+    background-color: var(--darker-col);
+    width: fit-content; 
 }
 #row{
     display: flex; 
